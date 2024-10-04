@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.CampoLogin,
+form {
+    background-color: rgb(179, 179, 179);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+p {
+    text-align: center;
+}
+
+.ESTADO {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+input{
+    border-radius: 20px;
+    background-color: rgb(228, 228, 228);
+}
+select{
+    border-radius: 15px;
+    background-color: rgb(228, 228, 228);
+}
+textarea{
+    border-radius: 10px;
+    background-color: rgb(228, 228, 228);
+}

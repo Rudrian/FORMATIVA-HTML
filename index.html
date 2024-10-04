@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="CampoLogin">
+        <form action="/pagina-processa-dados-form" method="post">
+
+            <p><b>Preencha o formulario corretamente!</b></p>
+
+            <label for="campoUsuario"> <b>Usuario:</b></label>
+            <input id="campoUsuario" type="text" class="usuario" required>
+
+            <label for="email"> <b>Email</b></label>
+            <input id="email" type="email" required>
+
+            <label for="campoSenha"><b>Senha:</b> </label>
+            <input id="campoSenha" type="password" class="senha" required>
+
+            <button type="submit"> <i><b>ENVIAR</b></i></button>
+    </section>
+    </form>
+
+
+    <form action="/pagina-processa-dados-form" method="post">
+
+        <label for="html"><i> HTML</i> </label>
+        <input id="html" type="checkbox">
+
+        <label for="css"> <i>CSS</i> </label>
+        <input id="css" type="checkbox">
+
+        <label for="javascript"> <i>JavaScript</i></label>
+        <input id="javascript" type="checkbox">
+
+    </form>
+
+    <form action="/pagina-processa-dados-form" method="post">
+
+        <label for="html"> Masculino </label>
+        <input id="html" name="sexo" type="radio">
+
+        <label for="html"> Feminino</label>
+        <input id="html" name="sexo" type="radio">
+
+    </form>
+
+    <form action="/pagina-processa-dados-form" method="post">
+
+        <label for="data"> Data de nascimento </label>
+        <input id="data" name="data" type="date">
+
+    </form>
+
+    <form action="/pagina-processa-dados-form" method="post">
+
+        <label for="telefone"> Telefone </label>
+        <input id="telefone" name="telefone" type="tel" placeholder="(XX)XXXXX-XXXX">
+
+    </form>
+
+    <form action="/pagina-processa-dados-form" method="post">
+
+        <label for="arquivo"> Envie uma imagem do seu documento(Verso) </label>
+        <input id="arquivo" name="arquivo" type="file">
+
+    </form>
+
+    <form action="/pagina-processa-dados-form" method="post">
+
+        <label for="search"> Pesquisar </label>
+        <input id="search" type="search" placeholder="Procure aqui">
+
+    </form>
+
+    <form action="/pagina-processa-dados-form" method="post">
+
+        <label for="range"> Range: </label>
+        <input id="range" type="range">
+
+    </form>
+
+    <form action="/pagina-processa-dados-form" method="post">
+
+        <label for="cor"> Escolha uma cor </label>
+        <input id="color" type="color">
+
+    </form>
+
+    <form action="/pagina-processa-dados-form" method="post">
+        <section class="ESTADO">
+            <p><b>SELECIONE SEU ESTADO: </b></p>
+            <select>
+                <option>São Paulo</option>
+                <option>Paraná</option>
+                <option>Santa Catarina</option>
+            </select>
+        </section>
+    </form>
+
+    <form action="/pagina-processa-dados-form" method="post">
+
+        <p><b><i>MENSAGEM DE SUPORTE</i></b></p>
+
+        <label for="mensagem"></label>
+        <textarea id="mensagem" cols="50" rows="10"></textarea>
+
+        <button type="submit"> <i><b>ENVIAR</b></i></button>
+
+    </form>
+
+</body>
+
+</html>
